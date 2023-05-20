@@ -1,0 +1,44 @@
+1. Using Insert Function, give examples of any function available in the
+different dropdowns present in the function library. For example
+AutoSum, Recently Used, Text, Date & Time, etc.		
+		*Most recently used
+		*All 
+		*Financial 
+		*Math&Trig
+		*Date&Time
+		*Statistical
+		*Lookup&Reference
+		*Database
+		*Text
+		*Logical
+		*Information
+		*Engineering
+		
+2. What are the different ways you can select columns and rows?
+	*COLUMNS - ctrl + Space
+	*ROW - shift + space
+	*Hold Ctrl and select the row or column numbers.
+	*Drag the cursor cell column or row
+	*Bring the cursor over the row number of the row that you want to select
+
+3. What is AutoFit and why do we use it?
+	*Designed to automatically resize cells in a worksheet to accommodate different sized data 
+	without having to manually change the column width and row height.
+	
+4. How can you insert new rows and columns into the existing table?
+	*Select table and go to table design
+	*select resize table in properties group
+	*Drag the curser , press ok
+	
+	Second method
+	*Select cell, then right click
+	*Go to insert option and select above rows or columns left
+	
+5. How do you hide and unhide columns in excel?
+	*select columns, then right click
+	*select hide/unhide
+	
+6. Create an appropriate table within the worksheet and use different
+functions available in the AutoSum command.
+    *The AutoSum command allows you to automatically insert the most common functions into your formula,
+	including SUM, AVERAGE, COUNT, MIN, and MAX.
