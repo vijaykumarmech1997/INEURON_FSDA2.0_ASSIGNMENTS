@@ -1,0 +1,27 @@
+1. How many types of conditions are available in conditional formatting on Excel?
+	*Highlight cell rules
+	*Top/Bottom rules
+	*Data bars
+	*color scals
+	*Data Icons
+	
+2. How to insert border in Excel with Format Cells dialog?
+	*Select the table and right click
+	*select formet cells and go to border option
+	*select outline and click ok
+	
+3. How to Format Numbers as Currency in Excel?
+	*Select the column and right click
+	*select formet cells and go to currency option
+	
+4. What are the steps to format numbers in Excel with the Percent style?
+	*Select the column and right click
+	*select formet cells and go to percentage option
+	
+5. What is a shortcut to merge two or more cells in excel?
+	*Alt + H
+	*Alt + M
+	*Alt + M
+6. How do you use text commands in Excel?
+	*The TEXT function lets you change the way a number appears by applying formatting to it with format codes. 
+	*It's useful in situations where you want to display numbers in a more readable format, or you want to combine numbers with text or symbols.
