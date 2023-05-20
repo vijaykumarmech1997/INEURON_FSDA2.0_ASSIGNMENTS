@@ -1,0 +1,30 @@
+1. To use the ribbon commands, what menu and grouping of commands will you
+find the Insert and Delete command?
+	*Select home ribben 
+	*Go to style group 
+	*select the insert or delete command 
+	
+2. If you set a row height or column width to 0 (zero), what happens to the row and
+column?
+	*Its sets to the default width or height
+	
+3. Is there a need to change the height and width in a cell? Why?
+	*It is necessary to change width and height for fit the data. 
+	
+4. What is the keyboard shortcut to unhide rows?
+	*CTRL + SHIFT + 9
+	
+5. How to hide rows containing blank cells?
+	*select the range that contains empty cells you want to hide
+	*Select home tab and go to editing group
+	*Click find&select then select go to special
+	*select blank box, then ok
+	*press ctrl+9 to hide the corresponding rows.
+	
+6. What are the steps to hide the duplicate values using conditional formatting in
+excel?
+	*select the range that contains dublicate value you want to hide
+	*select the home ribben and go to styles, select conditional formatting 
+	*select highlight cells rules and select dublicat values
+	*Then come the dialogbox and select custom
+	*Go to font and select colour in white 
