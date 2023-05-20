@@ -1,0 +1,31 @@
+1. What do you mean by cells in an excel sheet?
+	Cell is idendified on a worksheet by its reference, the column letter and rom number that intersect at the cells location. 
+
+2. How can you restrict someone from copying a cell from your worksheet?
+	* first save the workbook 
+	* select review and protect worksheet 
+	* select locked cells and unlocked cells 
+	* give the password
+
+3. How to move or copy the worksheet into another workbook?
+	* select sheet 
+	* Go to edit option 
+	* select move or copy of the sheet 
+	
+4. Which key is used as a shortcut for opening a new window document?
+	* control + N 
+
+5. What are the things that we can notice after opening the Excel interface?
+	* Quick access toolbar
+	* Ribben 
+	* Name box
+	* Formula quick menu 
+	* Formula bar 
+	* status bar 
+	* worksheet view options
+	* zoom slider control 
+	* zoom percentage indicator
+	
+6. When to use a relative cell reference in excel?
+	The reference is relative to the location of the cell. example select D2 cell and give the formula is B2*C2.
+	Then copy of the formula and down cell. 
