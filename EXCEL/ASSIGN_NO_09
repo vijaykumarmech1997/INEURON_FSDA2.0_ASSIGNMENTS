@@ -1,0 +1,43 @@
+1. What are the different margins options and do we adjust the margins of
+the excel worksheet?
+	*Top,Bottom,Left and Right, header, footer margins
+	*Margin setting, namely wide and narrow
+	
+2. Set a background for your table created.
+	*select worksheet and go to page layout 
+	*Select backrground and choose the image 
+	*Insert image then added
+	
+3. What is freeze panes and why do we use freeze panes? Give
+examples.
+	*To keep an area of a worksheet visible while you scroll to another area of the worksheet
+	*select first column then go to view
+	*Select freeze panes to lock selected columns
+	*locked the column displayed entire worksheet when we are move up & down the sheet. 
+	
+4. What are the different features available within the Freeze Panes
+command?
+	*Specific column freeze
+	*Specific row freeze
+	*First row and first column freeze
+
+5. Explain what the different sheet options present in excel are and what
+they do?
+	*Go to file and select new sheet
+	*Go to sheet bottom and select (+)sign, then we are add one by one -255 sheets
+	*Go to sheet bottom and right click, select insert option 
+
+The sheet options
+	*Go to file and select advanced option
+	*Editing option
+	*Cut,copy and paste option
+	*Pen 
+	*Image size and quality
+	*Print
+	*Chart
+	*Display
+	*Display options for this workbook
+	*Display options for this worksheet
+	*Formula
+	*When cleaning this workbook
+	*General
