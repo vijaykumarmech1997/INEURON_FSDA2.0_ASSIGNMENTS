@@ -1,0 +1,42 @@
+1. What are modules in VBA and describe in detail the importance of
+creating a module?
+	*A module is the fundamental syntactic unit of VBA source code
+   	*The physical representation of a module is implementation dependent but logically a VBA module is a sequence of Unicode characters that conform to the VBA language grammars
+  	*A module consists of two parts: a module header and a module body
+	
+2. What is Class Module and what is the difference between a Class
+Module and a Module?
+	*the module that helps to create your own objects with your own properties and methods like worksheets and range objectives of excel
+    *Modules are collections of methods and constants. They cannot generate instances
+   	*Classes may generate instances (objects), and have per-instance state (instance variables)
+
+3. What are Procedures? What is a Function Procedure and a Property
+Procedure?
+	*sub,Function and Property
+	*A property procedure is a series of Visual Basic statements that allow a programmer 
+	 to create and manipulate custom properties.
+	*A Function procedure is a series of Visual Basic statements enclosed by the 
+	 Function and End Function statements. 
+	 
+4. What are Procedures? What is a Function Procedure and a Property
+Procedure?
+	*sub,Function and Property
+	*A property procedure is a series of Visual Basic statements that allow a programmer 
+	 to create and manipulate custom properties.
+	*A Function procedure is a series of Visual Basic statements enclosed by the 
+	 Function and End Function statements.
+	 
+5. What is a sub procedure and what are all the parts of a sub procedure
+and when are they used?
+	*A Sub procedure is a series of Visual Basic statements enclosed by the 
+	 Sub and End Sub statements.
+	 *private and public
+	 
+6. How do you add comments in a VBA code? How do you add multiple
+lines of comments in a VBA code?
+	*select all the lines and then use the comment button from the toolbar or you can also add an APOSTROPHE at the starting of each line
+	*The moment you click the comment button it will convert all the lines into a multi-line comment block.
+7. How do you add comments in a VBA code? How do you add multiple
+lines of comments in a VBA code?
+	*select all the lines and then use the comment button from the toolbar or you can also add an APOSTROPHE at the starting of each line
+	*The moment you click the comment button it will convert all the lines into a multi-line comment block.
