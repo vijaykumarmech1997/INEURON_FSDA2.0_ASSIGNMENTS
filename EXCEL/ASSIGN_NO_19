@@ -1,0 +1,34 @@
+1. What are the data types used in VBA?
+	*two data types: numeric and non-numeric. 
+	
+2. What are variables and how do you declare them in VBA? What
+happens if you don’t declare a variable?
+	*In Excel VBA, individuals can use different variable types and constants in their worksheets
+	*A variable is defined as storage in the computer memory that stores information to execute the VBA code
+	*When declaring variables, you usually use a Dim statement.
+	*When you don’t declare the data type of the variable, then VBA treats it as a Variant data type, and it is bound to 
+	 accept any type of data integer like an integer, string, workbook, etc
+	 
+3. What is a range object in VBA? What is a worksheet object?
+	*More precisely, you can use the Range object to represent a range within a worksheet 
+	*This means that, by using Excel’s VBA Range object, you can refer to A single cell . A row or a column of cells.
+
+4. What is the difference between worksheet and sheet in excel?
+	*A sheet is a single page that contains its own collection of cells to help you organize your data. 
+	*An Excel worksheet is a single spreadsheet that is a matrix of rectangular cells, organized in tabular form of rows and columns.
+5. What is the difference between A1 reference style and R1C1 Reference
+style? What are the advantages and disadvantages of using R1C1
+reference style?
+	*When you're using the A1-style notation, columns are identified by letters. I explain this in the previous section.
+	*When you're working with R1C1-style references, columns are identified by numbers
+	*One of the main advantages of R1C1 references is that they make it easy to use relative references in formulas and functions.
+	*Complicated Syntax: R1C1 references can be difficult to read and comprehend, making it difficult for others to understand or modify your work.
+	*Compatibility with Formulas: R1C1 references may not be compatible with all Excel functions, resulting in errors and mistakes while performing calculations.
+	*Error-Prone: Due to the absence of cell names, it’s easy to select the wrong cell while utilizing R1C1 references, resulting in mistakes and inconsistencies.
+	*Incompatibility with Others: If you are working with colleagues who are not familiar with using R1C1 references, it may cause confusion and misunderstandings while collaborating on projects.
+
+6. When is offset statement used for in VBA? Let’s suppose your current
+highlight cell is A1 in the below table. Using OFFSET statement, write a
+VBA code to highlight the cell with “Hello” written in it.
+	*To use OFFSET function in VBA, we have to use VBA RANGE object because OFFSET refers cells and from that RANGE object we can use OFFSET function
+	* Range(Cells.Find(What:="Part # 1").Address & ":D4").Select
