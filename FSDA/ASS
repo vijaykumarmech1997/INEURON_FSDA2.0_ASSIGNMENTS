@@ -1,0 +1,3 @@
+use demo_database;
+
+create or replace table sales
