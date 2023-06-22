@@ -1,0 +1,30 @@
+1.List and explain different PowerBi products?
+	*Creating and editing customized reports for every level of expertise.
+	*Data ingestion from hundreds of supported data sources.
+	*Data transformation, cleaning, data model creation with built-in Power Query Editor.
+	*AI-driven analytics.
+	*Interactive reporting with pre-built or custom visuals.
+
+2.What limitations of Excel, Microsoft solved by PowerBi?
+	*Total number of rows and columns on a worksheet - 1,048,576 rows by 16,384 columns
+	*Microsoft Excel power users will benefit best,Complex in nature,Data quality,Does not handle large data sources properly,Performance Issues,Bulky User Interface,Limited Sharing of Data.
+
+3.Explain PowerQuery?
+	*Power Query is a data transformation and data preparation engine
+	*Power Query comes with a graphical interface for getting data from sources and a Power Query Editor for applying transformations
+	
+4.Explain PowerMap?
+	*A power map lets you discover insights you might not see in traditional two-dimensional (2-D) tables and charts
+	*With Power Map, you can plot geographic and temporal data on a 3-D globe or custom map, show it over time, and create visual tours you can share with other people
+
+5.How powerBi eliminated the need to host SharePoint Server on premises?
+	*The ability to integrate with Microsoft 365 applications.
+	*High-level security features.
+	*Compatibility with mobile devices, so information is accessible on the go.
+	*Easy external collaboration efforts with users.
+	*HIPPA, FIMSA, and ISO27001 compliance, among others.
+
+6.Explain the updates done in Power Bi Service(power BI 2.0) as compared to older version ?
+	*Power BI has designed a new dashboard visual that can be added to Power BI reports to help companies integrate business goals, performance indicators, KPI and dashboards into Power BI reports
+	*This new visual allows users to easily integrate a dashboard into a report as well as update their business goals.
+
