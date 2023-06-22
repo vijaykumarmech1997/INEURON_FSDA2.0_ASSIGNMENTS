@@ -1,0 +1,79 @@
+use demo_database;
+
+create or replace table sales
+(
+ order_id varchar(50) primary key,
+ order_date string,
+ ship_date string,
+ ship_mode varchar(50),
+ customer_name varchar (50),
+ segment varchar(50),
+ state varchar (50),
+ country varchar (50),	
+ market varchar (50), 
+ region	varchar (50),
+ product_id	varchar (55),
+ category varchar(55),	
+ sub_category varchar (55),	
+ product_name varchar (200),	
+ sales	string,
+ quantity NUMBER(12,0),	
+ discount float,	
+ profit float,	
+ shipping_cost FLOAT,	
+ order_priority	VARCHAR(20),
+ year INT );
+
+ 
+ describe table SALES;
+ select * from SALES;
+ 
+ --create copy of the table
+ 
+CREATE OR REPLACE TABLE sales_COPY as 
+select * from sales;
+
+DESCRIBE TABLE sales_COPY;
+select * from sales_COPY;
+
+
+--2. CHECK THE ORDER DATE AND SHIP DATE TYPE AND THINK IN WHICH DATA TYPE YOU HAVE TO CHANGE.
+
+SELECT*,
+TO_CHAR(TO_DATE(order_date,'yyyy-mm-dd'),'dd-mm-yyyy') AS order_date_change_formet from sales_COPY;
+
+SELECT*,
+TO_CHAR(TO_DATE(ship_date,'yyyy-mm-dd'),'dd-mm-yyyy') AS ship_date_change_formet from sales_COPY;
+
+--3. EXTACT THE LAST NUMBER AFTER THE - AND CREATE OTHER COLUMN AND UPDATE IT.
+
+select *,
+split_part(order_id, '-',3) as order_number from sales_COPY;
+
+
+--4.  FLAG ,IF DISCOUNT IS GREATER THEN 0 THEN  YES ELSE FALSE AND PUT IT IN NEW COLUMN FRO EVERY ORDER ID.
+
+select *,
+        case when discount > '0' then 'yes'
+             else 'no'
+             end as if_dicounted
+        from sales_COPY;
+        
+--5. FIND OUT THE FINAL PROFIT AND PUT IT IN COLUMN FOR EVERY ORDER ID.
+
+select sum(profit) from sales_COPY as final_profit;
+
+--6.  FIND OUT HOW MUCH DAYS TAKEN FOR EACH ORDER TO PROCESS FOR THE SHIPMENT FOR EVERY ORDER ID.
+
+select * ,
+datediff ('days',order_date,ship_date) as process_to_ship_date from sales_COPY;
+
+--7 . FLAG THE PROCESS DAY AS BY RATING IF IT TAKES LESS OR EQUAL 3  DAYS MAKE 5,LESS OR EQUAL THAN 6 DAYS BUT MORE THAN 3 MAKE 4,LESS THAN 10 BUT MORE THAN 6 MAKE 3,MORE THAN 10 MAKE IT 2 FOR EVERY ORDER ID.
+
+select * ,
+         case when 'PROCESS_TO_SHIP_DATE' <= '3' then '5'
+              when 'PROCESS_TO_SHIP_DATE' between '4' and '6' then '4'
+              when 'PROCESS_TO_SHIP_DATE' between '7' and '10' then '3'
+              else '2'
+         end as rating
+from sales_COPY;
