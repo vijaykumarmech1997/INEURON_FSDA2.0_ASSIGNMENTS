@@ -1,0 +1,81 @@
+1.Explain the advantages of Natural Queries in PowerBi with an example?
+
+1.Guided NLQ is a unique self-service BI experience
+2.Every question is understood by Guided NLQ
+3.Guided NLQ makes it simple to ask complex questions
+4.Guided NLQ is integrated throughout Yellowfin
+5.It's easy to embed Guided NLQ into your applications
+
+2.Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+The WFE cluster uses Azure AD to authenticate clients, and provide tokens for subsequent client connections to the Power BI service
+
+3.Explain Back End cluster from Power BI Service Architecture?
+*It basically acts as a gateway between users and Power BI services
+*Users don't act directly with any roles but the gateway Role
+*All data is stored in Azure BLOB storage and user azure storage account and authenticated by Azure Active Directory
+
+4.What ASP.NET component does in Power BI Service Architecture?
+*Power Query (for data mash-up and transformation)
+*Power BI Desktop (a companion development tool)
+*Power BI Mobile (for Android, iOS, Windows phones)
+*Power Pivot (for in-memory tabular data modeling)
+*Power View (for viewing data visualizations)
+*Power Map (for visualizing 3D geo-spatial data)
+*Power Q&A (for natural language Q&A)
+
+5.Compare Microsoft Excel and PowerBi Desktop on the following features:
+
+Data import
+*In contrast, Power BI can handle much larger amounts of data. 
+*Power BI can connect to a large number of data sources, while Excel's connectivity capacity is limited. 
+*Also, unlike Excel, Power BI can be easily used from mobile devices.
+
+Data transformation
+*Excel is used to organize data, transform it and perform mathematical operations and calculations
+*On the other hand, Power BI was conceived as a business intelligence and data visualization tool for businesses 
+*Excel has limitations in the amount of data it can work with
+
+Modeling
+*Power BI has faster processing than Excel. Power BI dashboards are more visually appealing, interactive and customizable than those in Excel
+*Power BI is a more powerful tool than Excel in terms of comparison between tables, reports or data files
+*Power BI is more user friendly and easy to use than Excel
+
+Reporting
+*Power BI is ideal for Dashboards, alerts, KPIs, and visualizations, including analyzing your data visually
+*Excel is better at handling tabular-style reports
+*Power BI is not so handy for tabular-style reports
+*Excel reports are normal and ordinary comparing Power BI
+
+Server Deployment
+*Server deployment is the process of making a server operational
+*The POWER BI lets you clone content from one stage in the deployment pipeline to another, typically from development to test, and from test to production.
+
+Convert Models
+*Duplicating Query,Removing Columns,Removing Duplicates,Building Relationships
+*In Power Pivot, go to Manage,On the Home tab, select PivotTable,Select where you want the PivotTable to be placed: a new worksheet, or the current location,Click OK, and Excel will add an empty PivotTable with the Field List pane displayed on the right.
+
+Cost
+*Power BI Desktop is offered as a free download; Users can purchase Power BI Pro for $9.99/user/month; Power BI Premium costs $20/user/month
+*Excel is available from Microsoft for $160 per year or $6.99 a month
+
+6.List 20 data sources supported by Power Bi desktop.
+*Excel
+*Text/CSV
+*XML
+*JSON
+*Oracle Database
+*IBM DB2 Database
+*MySQL Database
+*PostgreSQL Database
+*Sybase Database
+*Teradata Database
+*SAP HANA Database
+*SAP Business Warehouse server
+*Amazon Redshift
+*Impala
+*Google BigQuery (Beta)
+*Azure SQL Database
+*Salesforce Reports
+*Google Analytics
+*Facebook
+*GitHub
