@@ -1,0 +1,24 @@
+
+1.What do you mean by BI? Explain.
+	*Business intelligence (BI) is software that ingests business data and presents it in user-friendly views such as reports, dashboards, charts and graphs.
+
+2.How Power-BI helps in BI, and how does it help Analysts? Explain.
+	*Power BI is also a part of Microsoft's Power Platform, which includes Power Apps, Power Pages, Power Automate, and Power Virtual Agents.
+	*Created as “low-code tools,” these applications help businesses analyze and visualize data, design business solutions, automate processes, and create no-code chatbots.
+
+3.Explain Descriptive analytics?
+	*Descriptive analytics is a type of data analytics that looks at past data to give an account of what has happened.
+
+4.Explain Predictive analytics?
+	*Predictive analytics is a branch of advanced analytics that makes predictions about future outcomes using historical data combined with statistical modeling,
+	 data mining techniques and machine learning.
+
+5.Explain perspective analytics?
+	*Prescriptive analytics is a statistical method that focuses on finding the ideal way forward or action necessary for a particular scenario, based on data.
+	
+6.Write five real-life questions that PowerBi can solve.
+	*Waiting On Figures
+	*Using Data From Old Reports
+	*Excessive Time Spent Preparing For Presentations
+	*Being Unable To Find Specific Data Sets
+	*Not Being Able To Determine Your Level Of Success
